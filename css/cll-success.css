@@ -27,7 +27,7 @@ body {
     z-index: 2;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 7.5rem;
     height: 0.88rem;
     line-height: 0.88rem;
     background: #e13838;
@@ -42,7 +42,7 @@ body {
     z-index: 2;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 7.5rem;
     height: 48px;
     /*background: #444;*/
     padding: 0;
@@ -55,7 +55,7 @@ body {
     top: 0.88rem;
     bottom: 0.96rem;
     left: 0;
-    width: 100%;
+    width: 7.5rem;
     background: #fff;
     overflow: hidden;
 }
@@ -64,7 +64,7 @@ body {
     position: absolute;
     z-index: 1;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    width: 100%;
+    width: 7.5rem;
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
