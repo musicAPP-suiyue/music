@@ -10,11 +10,13 @@ html{
     width:100%;
     background-image: url("../img/fh-21.png");
     background-size:auto 100%;
+    overflow:auto;
 }
 body{
     height:100%;
     width:100%;
     background:rgba(0,0,0,0.6);
+    overflow:auto;
 }
 .fh-header{
     width:100%;
