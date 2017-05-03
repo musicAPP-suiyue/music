@@ -17,7 +17,6 @@ body,ul,li {
 body {
     /*font-size: 12px;*/
     font-family: "苹方";
-    background: #f1f1f1;
     font-family: ubuntu, helvetica, arial;
     overflow: hidden; /* this is important to prevent the whole page to bounce */
 }
@@ -64,7 +63,7 @@ body {
     position: absolute;
     z-index: 1;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
-    width: 100%;
+    width: 7.5rem;
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);

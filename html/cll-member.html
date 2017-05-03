@@ -16,6 +16,16 @@
     <script src="../js/common.js"></script>
     <script src="../js/cll-member.js"></script>
 </head>
+
+<script>
+    function loaded () {
+        var myScroll = new IScroll('#wrapper', {
+            scrollbars:true,
+            freeScroll: true,
+            fadeScrollbars:true,
+        });
+    }
+</script>
 <body onload="loaded()">
     <!--头部-->
     <div id="header">
@@ -116,8 +126,3 @@
     </div>
 </body>
 </html>
-<script>
-    function loaded () {
-        var myScroll = new IScroll('#wrapper', { bounceEasing: 'elastic', bounceTime: 1200 });
-    }
-</script>
