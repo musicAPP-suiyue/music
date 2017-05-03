@@ -1,0 +1,380 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	height:100%;
+}
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.88rem;
+	background:red;
+}
+#footer {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.98rem;
+	background:red;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0.88rem;
+	bottom:0.98rem;
+	left: 0;
+	width: 100%;
+	background: #ccc;
+	overflow: hidden;
+}
+#scroller {
+	position:absolute;
+	z-index: 1;
+	width: 100%;
+	background:#fff;
+	height:84rem;
+}
+/*banner*/
+.lp-banner{
+	width:100%;
+	height:4.1rem;
+}
+.lp-banner-bk1{
+	width:100%;
+	height:0.69rem;
+	background:#e13838;
+}
+.lp-banner-bk2{
+	width:6.64rem;
+	height:0.42rem;
+	background:#e13838;
+	margin:0 auto;
+	margin-top:-0.3rem;
+	border-radius:0.08rem;
+}
+.lp-banner-bk{
+	width:7.01rem;
+	height:3.94rem;
+	border-radius:0.06rem;
+	margin:0 auto;
+	margin-top:-0.67rem;
+	border:0.02rem solid #fff;	
+	overflow:hidden;
+}
+.lp-banner-bk>.swiper-container{
+	width:100%;
+	height:100%;
+	background:#fff;
+}
+.lp-banner-bk>.swiper-container>.swiper-wrapper{
+	width:100%;
+	height:100%;
+}
+.lp-banner-bk>.swiper-container>.swiper-wrapper>img{
+	display:block;
+	width:100%;
+}
+/*list*/
+.lp-list{
+	width:100%;
+	overflow:hidden;
+	margin-top:0.2rem;
+}
+.lp-list-li{
+	width:33.33%;
+	float:left;
+	margin:0 auto;
+}
+.lp-list-li>a{
+	display:block;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	height:1.12rem;
+}
+.lp-list-li>a>img{
+	width:1.12rem;
+}
+.lp-list-li>div{
+	font-size:0.18rem;
+	color:#574f4f;
+	margin-top:0.12rem;
+	text-align:center;
+}
+/*推荐歌单*/
+.lp-recommend{
+	width:100%;
+	height:0.45rem;
+	margin-top:0.64rem;
+}
+.lp-recommend-1{
+	width:0.02rem;
+	height:0.43rem;
+	margin-top:0.01rem;
+	background:#ff2424;
+	float:left;
+}
+.lp-recommend-2{
+	width:0.45rem;
+	height:0.45rem;
+	margin-left:0.27rem;
+	float:left;
+}
+.lp-recommend-2>img{
+	width:0.45rem;
+	float:left;
+}
+.lp-recommend-3{
+	height:0.45rem;
+	line-height:0.45rem;
+	color:#1b1b1b;
+	font-size:0.26rem;
+	margin-left:0.1rem;
+	float:left;
+}
+.lp-recommend-5{
+	height:0.45rem;
+	line-height:0.45rem;
+	color:#1b1b1b;
+	font-size:0.26rem;
+	margin-right:0.06rem;
+	float:right;
+}
+.lp-recommend-4{
+	float:right;
+	height:0.45rem;
+	line-height:0.45rem;
+	color:#fe2424;
+	font-size:0.26rem;
+	margin-right:0.24rem;
+	font-family:"宋体";
+}
+/*推荐歌单  -表格-*/
+.lp-table{
+	width:7rem;
+	height:4.74rem;
+	margin:0 auto;
+	margin-top:0.45rem;
+}
+.lp-table>li{
+	width:100%;
+	height:1.58rem;
+}
+.lp-table-li1-left{
+	width:66.66%;
+	height:1.58rem;
+	background:#e83535;
+	float:left;
+}
+.lp-table-li1-left>.left{
+	float:left;
+	margin-left:0.22rem;
+	margin-top:0.5rem;
+}
+.lp-table-li1-left>.left>h4{
+	font-weight:100;
+	font-size:0.26rem;
+	color:#fff;
+}
+.lp-table-li1-left>.left>h5{
+	font-weight:100;
+	font-size:0.22rem;
+	color:#fff;
+}
+.lp-table-li1-left>.right{
+	float:right;
+	font-size:0.22rem;
+	color:#fff;
+	margin-top:0.6rem;
+	margin-right:0.3rem;
+}
+.lp-table-li1-right{
+	float:right;
+	width:33.33%;
+	height:1.58rem;
+	background:#03647d;
+}
+.lp-table-li2>a{
+	float:left;
+	width:33.33%;
+	height:1.58rem;
+	background:#ea4842;
+}
+.lp-table-li2>a>div{
+	margin-left:0.22rem;
+	margin-top:0.5rem;
+}
+.lp-table-li2>a>div>h4{
+	font-weight:100;
+	font-size:0.26rem;
+	color:#fff;
+}
+.lp-table-li2>a>div>h5{
+	font-weight:100;
+	font-size:0.22rem;
+	color:#fff;
+	margin-top:0.08rem;
+}
+.lp-table-li2>.lp-table-li2-center{
+	float:left;
+	width:33.33%;
+	height:1.58rem;
+	background:#03647d;
+}
+.lp-table-li3>a{
+	float:left;
+	width:33.33%;
+	height:1.58rem;
+	background:#ea4842;
+}
+.lp-table-li3>a>div{
+	margin-left:0.22rem;
+	margin-top:0.5rem;
+}
+.lp-table-li3>a>div>h4{
+	font-weight:100;
+	font-size:0.26rem;
+	color:#fff;
+}
+.lp-table-li3>a>div>h5{
+	font-weight:100;
+	font-size:0.22rem;
+	color:#fff;
+	margin-top:0.08rem;
+}
+.lp-table-li3>.lp-table-li3-mv{
+	float:left;
+	width:33.33%;
+	height:1.58rem;
+	background:#03647d;
+}
+/*独家放送-详情*/
+.lp-delivery{
+	width:100%;
+	height:2.97rem;
+	margin:0 auto;
+	margin-top:0.28rem;
+	position:relative;
+}
+.lp-delivery>.lp-delivery-bg{
+	width:100%;
+}
+.lp-delivery>.lp-delivery-sm{
+	position:absolute;
+	top:0.15rem;
+	left:0.24rem;
+	width:0.42rem;
+}
+.lp-delivery-letter{
+	width:100%;
+	height:0.6rem;
+	padding-left:0.46rem;
+	box-sizing:border-box;
+	line-height:0.6rem;
+	font-size:0.22rem;
+	color:#111111;
+}
+.lp-delivery-list{
+	width:100%;
+	height:3.42rem;	
+	margin:0 auto;
+}
+.lp-delivery-list>.lp-delivery-a{
+	width:2.24rem;
+	height:3.42rem;
+	border-radius:0.1rem;
+	margin-left:0.15rem;
+	float:left;	
+	background:#fff;
+	box-shadow:0 0 0.03rem 0 #d9d6d6;
+}
+.lp-delivery-list>.lp-delivery-a:nth-child(1){
+	margin-left:0.25rem;
+}
+.lp-delivery-list>.lp-delivery-a>.img1{
+	display:block;
+	width:1.93rem;
+	margin-top:0.28rem;
+	margin-left:0.17rem;
+}
+.lp-delivery-list>.lp-delivery-a>h4{
+	margin-top:0.22rem;
+	margin-left:0.17rem;
+	font-size:0.18rem;
+	color:#111111;
+}
+.lp-delivery-list>.lp-delivery-a>.img2{
+	display:block;
+	height:0.01rem;
+	margin-top:0.18rem;
+	margin-left:0.17rem;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line1{
+	height:0.32rem;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line1>img{
+	display:block;
+	height:0.16rem;
+	float:left;
+	margin-top:0.1rem;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line1>span{
+	font-size:0.14rem;
+	color:#333232;
+	float:left;
+	margin-left:0.1rem;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line1>img:nth-child(1){
+	margin-left:0.17rem;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line1>img:nth-child(3){
+	margin-left:0.1rem;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line2{
+	width:100%;
+	margin-top:0.2rem;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line2>img{
+	display:block;
+	margin-left:0.17rem;	
+	height:0.47rem;
+	float:left;
+}
+.lp-delivery-list>.lp-delivery-a>.lp-line2>span{
+	margin-top:0.08rem;
+	margin-left:0.1rem;
+	font-size:0.19rem;
+	color:#333232;
+	float:left;
+}
+.lp-mv{
+	width:6.02rem;
+	height:2.62rem;
+	background:#03647d;
+	margin:0 auto;
+	margin-top:0.26rem;
+}
+.lp-mv>img{
+	display:block;
+	float:left;
+	margin-top:0.17rem;
+	margin-left:0.17rem;
+	width:0.42rem;
+}
+.lp-singer1{
+	width:6.4rem;
+	margin:0 auto;
+	font-size:0.24rem;
+	color:#111;
+}
+.lp-singer2{
+	width:6.4rem;
+	margin:0 auto;
+	font-size:0.22rem;
+	color:#666;
+}
