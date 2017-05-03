@@ -19,7 +19,7 @@ $(document).ready(function () {
     });
     // 确认支付
     $('.sure').on('touchstart',function () {
-        location.href='../html/cll-success.html';
+        location.href='https://htmlpreview.github.io/?https://github.com/musicAPP-suiyue/music/blob/master/html/cll-success.html';
     })
 
 })

@@ -3,6 +3,6 @@
  */
 $(document).ready(function (){
     $('.dredge').on('touchstart',function () {
-        location.href='../html/cll-member-click.html';
+        location.href='https://htmlpreview.github.io/?https://github.com/musicAPP-suiyue/music/blob/master/html/cll-member-click.html';
     })
 })
