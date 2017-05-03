@@ -16,7 +16,16 @@
     <script src="../js/common.js"></script>
     <script src="../js/cll-home.js"></script>
 </head>
-<body>
+<script>
+    function loaded () {
+        var myScroll = new IScroll('#wrapper', {
+            scrollbars:true,
+            freeScroll: true,
+            fadeScrollbars:true,
+        });
+    }
+</script>
+<body onload="loaded()">
     <!--头部-->
     <div id="header">
         <img src="../img/cll-back.png" alt="">
