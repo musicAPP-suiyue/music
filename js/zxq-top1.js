@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("li a").click(function(){
+	$("li").click(function(){
 //		alert(1);
 		$(this).addClass("active").siblings().removeClass("active");
 		console.log($(this));
