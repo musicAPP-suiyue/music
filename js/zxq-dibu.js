@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	var audio=$('audio').get(0);
 	$('.zxq-play2').on('click',function(){
-		alert(1);
 			if(audio.paused){
 				audio.play();
 			}else{
