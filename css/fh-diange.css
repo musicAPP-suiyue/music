@@ -1,0 +1,121 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size:0.24rem;
+}
+img{
+    display: block;
+}
+body{
+    background:#F1F1F1;
+}
+.fh-header{
+    width:100%;
+    height:0.88rem;
+    padding:0.25rem;
+    box-sizing: border-box;
+    background: #e13838;
+}
+.fh-header img:nth-child(1){
+    height:0.35rem;
+    float:left;
+}
+.fh-header h1{
+    float:left;
+    font-size:0.3rem;
+    color:#fff;
+    margin-left:2.85rem;
+}
+.fh-header img:nth-child(3){
+    height:0.35rem;
+    float:right;
+}
+/*内容*/
+.fh-content{
+    width:7.02rem;
+    height:auto;
+    background: #fff;
+    margin:0 0.24rem;
+}
+.fh-top{
+    width:100%;
+    height:0.66rem;
+    border-bottom:1px solid #e4e4e4;
+    box-sizing: border-box;
+}
+.fh-top h1{
+    font-size: 0.3rem;
+    color: #111111;
+    margin-left:2.8rem;
+    line-height:0.66rem;
+    float:left;
+    position: relative;
+}
+.fh-top h1:nth-child(1){
+    margin-left:1.5rem;
+}
+.fh-top .fh-di:after{
+    content:"";
+    display: block;
+    width:1.5rem;
+    height:0.03rem;
+    background: #e13838;
+    position: absolute;
+    left:-0.45rem;
+    bottom:0.03rem;
+}
+.fh-content ul{
+    height:auto;
+    width:100%;
+}
+.fh-content ul li{
+    width:100%;
+    height:1.07rem;
+    padding:0.21rem 0.58rem 0 0.23rem;
+    border-bottom: 1px solid #e4e4e4;
+    box-sizing: border-box;
+}
+.fh-content ul li h1{
+    float:left;
+    font-size:0.24rem;
+    color:#111;
+    margin-right:0.15rem;
+}
+.fh-content ul li img{
+    float:left;
+    margin-right:0.05rem;
+    height:0.26rem;
+    margin-top:0.05rem;
+}
+.fh-content ul li .fh-last{
+    float:none;
+}
+.fh-content ul li h2{
+    margin-top:0.12rem;
+    color:#7f7f7f;
+    font-size:0.2rem;
+}
+.fh-content ul li .fh-mai{
+    float:right;
+    height:0.4rem;
+    margin-top:0.12rem;
+}
+/*右边*/
+.fh-right{
+    width:0.2rem;
+    height:9.6rem;
+    border-radius: 0.1rem;
+    background: #F1F1F1;
+    position: fixed;
+    right:0.32rem;
+    top:2.2rem;
+}
+.fh-right li{
+    height:3.42%;
+    width:100%;
+    line-height: 0.3428rem;
+    text-align: center;
+    font-size:0.12rem;
+}
+.fh-right li b{
+    color:#fff;
+}

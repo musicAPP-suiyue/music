@@ -1,0 +1,98 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	height:100%;
+}
+#header {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.88rem;
+	background:red;
+}
+#footer {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.98rem;
+	background:red;
+}
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0.88rem;
+	bottom:0.98rem;
+	left: 0;
+	width: 100%;
+	background: #ccc;
+	overflow: hidden;
+}
+#scroller {
+	position:absolute;
+	z-index: 1;
+	width: 100%;
+	background:#f1f1f1;
+	height:30rem;
+} 
+/*list*/
+.lp-ranking{
+	display:block;
+	width:7.04rem;
+	height:2.11rem;
+	border-radius:0.1rem;
+	background:#fff;
+	margin:0 auto;
+	margin-top:0.2rem;
+}
+.lp-ranking>img{
+	float:left;
+	width:1.96rem;
+	margin-top:0.07rem;
+	margin-left:0.02rem;
+}
+.lp-ranking>.lp-right{
+	float:left;	
+	margin-top:0.07rem;
+	margin-left:0.1rem;
+}
+.lp-ranking>.lp-right>.lp-line1{
+	height:0.66rem;
+}
+.lp-ranking>.lp-right>.lp-line1>img{
+	width:0.62rem;
+	float:left;
+}
+.lp-ranking>.lp-right>.lp-line1>div{
+	float:left;
+	font-size:0.22rem;
+	font-weight:100;
+	margin-top:0.1rem;
+	margin-left:0.1rem;
+}
+.lp-ranking>.lp-right>.lp-line1>div>h4:nth-child(1){
+	color:#3f3f3f;
+	font-weight:100;
+}
+.lp-ranking>.lp-right>.lp-line1>div>h4:nth-child(2){
+	color:#9b9b9b;
+	font-weight:100;
+}
+.lp-ranking>.lp-right>.lp-line2{
+	height:0.88rem;
+	box-sizing:border-box;
+	margin-top:0.22rem;
+	margin-left:0.1rem;
+}
+.lp-ranking>.lp-right>.lp-line2>h4{
+	font-size:0.22rem;
+	color:#3f3f3f;
+	font-weight:100;
+}
+.lp-ranking>.lp-right>.lp-line2>h4:nth-child(2){
+	margin-top:0.16rem;
+}

@@ -129,7 +129,7 @@
 	font-size: 0.18rem;
 }
 .article .tiao-1{
-	width: 80%;
+	width: 75%;
 	height: 0.02rem;
 	background: #897C7D;
 }
@@ -172,7 +172,13 @@
 .article .play .bf{
 	width: 1.07rem;
 	height: 1.07rem;
-	background: url(../img/sc-img/bf.png)no-repeat;
+	background: url(../img/sc-img/bf1.png)no-repeat;
+	background-size: cover;
+}
+.article .play .bf1{
+	width: 1.07rem;
+	height: 1.07rem;
+	background: url(../img/sc-img/bf11.png)no-repeat;
 	background-size: cover;
 }
 .article .play .right{
