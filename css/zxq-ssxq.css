@@ -1,0 +1,226 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size:0.24rem;
+}
+img{
+    display: block;
+}
+body{
+    background:#F1F1F1;
+}
+.zxq-topp{
+	width:100%;
+	height:0.88rem;
+	background:#e13838;
+}
+.zxq-topp input{
+	width:5.49rem;
+	height:0.56rem;
+	background: #fff;
+	border-radius: 0.5rem;
+	border:none;
+	outline:none;
+	float: left;
+	margin-top:0.16rem;
+	margin-left:0.45rem;
+	padding-right: 0.67rem;
+	padding-left:0.28rem;
+	box-sizing: border-box;
+}
+.zxq-topp .zxq-sc{
+	width:0.42rem;
+	height:0.52rem;
+	margin-left:-0.6rem;
+	margin-top:0.18rem;
+}
+.zxq-topp img{
+	display: block;
+	width:0.4rem;
+	height:auto;
+	margin-top:0.2rem;
+	float:left;
+}
+.zxq-topp .zxq-sc1{
+	margin-top:0.25rem;
+}
+.zxq-topp span{
+	display: inline-block;
+	width:6rem;
+	/*height:100%;*/
+	margin:0 auto;
+	margin-top:0.25rem;
+	font-size:0.3rem;
+	float:left;
+	color:#fff;
+	font-family: '苹方';
+	text-align: center;
+}
+.zxq-topp img:first-child{
+	margin-left:0.19rem;
+}
+.zxq-topp img:last-child{
+	margin-right:0.25rem;
+	float:right;
+}
+/*内容*/
+.zxq-content1{
+	width:7.02rem;
+	height:1.24rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	margin:0 auto;
+	margin-top:0.16rem;
+	margin-bottom: 0.18rem;
+}
+.zxq-content1 img{
+	width:1.74rem;
+	height:1.23rem;
+	float: left;
+}
+.zxq-content1 .zxq-right{
+	width:4.97rem;
+	height:100%;
+	float: left;
+	margin-left:0.3rem;
+}
+.zxq-content1 .zxq-right h1{
+	color:#111;
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+	letter-spacing: 0.1rem;
+	margin-top:0.25rem;
+	font-family: "苹方";
+}
+.zxq-content1 .zxq-right .zxq-tutu{
+	width:4.97rem;
+	height:0.05rem;
+	padding-right:0.4rem;
+	margin-top:0.11rem;
+}
+.zxq-content1 .zxq-right .zxq-zi{
+	width:4.97rem;
+	height:auto;
+	padding-right:0.4rem;
+	margin-top:0.11rem;
+}
+.zxq-content1 .zxq-right .zxq-zi h2{
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+	color:#f62d2d;
+	letter-spacing: 0.1rem;
+	font-family: "苹方";
+	margin-top:0.14rem;
+	float: left;
+	
+}
+.zxq-content1 .zxq-right .zxq-zi img{
+	width:0.2rem;
+	height:0.2rem;
+	float:left;
+	margin-top:0.18rem;
+	margin-left:1.27rem;
+}
+.zxq-content1 .zxq-right .zxq-zi h3{
+	font-size: 0.2rem;
+	line-height: 0.32rem;
+	color:#aaaaaa;
+	letter-spacing: 0.05rem;
+	font-family: "苹方";
+	margin-top:0.14rem;
+	float: left;
+	margin-left:0.08rem;
+}
+.zxq-content1 .zxq-right .zxq-zi .zxq-line{
+	width:0.16rem;
+	height:0.2rem;
+	float: left;
+	margin-left:0;
+}
+.zxq-content1 .zxq-right .zxq-zi h4{
+	font-size: 0.2rem;
+	line-height: 0.32rem;
+	color:#aaaaaa;
+	letter-spacing: 0.05rem;
+	font-family: "苹方";
+	margin-top:0.14rem;
+	float: left;
+	/*margin-left:0.08rem;*/
+}
+.zxq-content{
+    width:7.02rem;
+    height:auto;
+    background: #fff;
+    margin:0 auto;
+    border-radius: 0.1rem;
+    border:0.01rem solid #fff;
+    box-shadow: 0 0 0.09rem 0.05rem rgba(6,0,1,0.1);
+}
+.zxq-top{
+    width:100%;
+    height:0.66rem;
+    border-bottom:0.01rem solid #bfbfbf;
+    box-sizing: border-box;
+}
+.zxq-top h1{
+    font-size: 0.3rem;
+    color: #111111;
+    margin-left:2.05rem;
+    line-height:0.66rem;
+    float:left;
+    position: relative;
+}
+.zxq-top h1:last-child{
+    margin-left:1.87rem;
+}
+.zxq-top .zxq-di:after{
+    content:"";
+    display: block;
+    width:0.83rem;
+    height:0.03rem;
+    background: #e13838;
+    position: absolute;
+    left:-0.1rem;
+    bottom:0.03rem;
+}
+.zxq-content ul{
+    height:auto;
+    width:100%;
+}
+.zxq-content ul li{
+    width:100%;
+    height:1.07rem;
+    padding:0.21rem 0.26rem 0 0.22rem;
+    border-bottom: 0.01rem solid #bfbfbf;
+    box-sizing: border-box;
+}
+.zxq-content ul li h1{
+	font-family: "苹方";
+    float:left;
+    font-size:0.24rem;
+    color:#111;
+    font-weight: bold;
+    margin-right:0.15rem;
+}
+.zxq-content ul li img{
+    float:left;
+    margin-right:0.05rem;
+    height:0.26rem;
+    margin-top:0.05rem;
+}
+.zxq-content ul li .zxq-last{
+    float:none;
+}
+.zxq-content ul li h2{
+    margin-top:0.12rem;
+    color:#7f7f7f;
+    font-size:0.2rem;
+    font-family: "苹方";
+}
+.zxq-content ul li .zxq-mai{
+	width:0.18rem;
+	height:0.33rem;
+    float:right;
+  /*  height:0.4rem;*/
+    margin-top:0.16rem;
+}
+/*右边*/

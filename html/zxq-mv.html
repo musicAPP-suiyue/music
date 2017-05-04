@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="x5-orientation" content="portrait | landscape" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="full-screen" content="yes">
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<title></title>
+	<link rel="stylesheet" href="../css/common.css" />
+	<link rel="stylesheet" href="../css/zxq-mv.css" />
+	<script src='../js/zepto.min.js'></script>
+	<script src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/iscroll.js"></script>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper',{
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top:4rem;
+			bottom: 0px;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
+</head>
+<body onload="loaded()">
+	<div class='zxq-head'>
+		<img src="../img/zxq-mv.png" alt="" />
+		<img src="../img/zxq-ffh.png" alt="" class='zxq-fh'/>
+		
+	</div>
+	<div id="wrapper">
+		<div id='scroller'>	
+			<div class='zxq-f1'>
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
