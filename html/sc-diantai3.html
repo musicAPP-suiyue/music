@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta name="x5-orientation" content="portrait | landscape" />
 	<meta name="screen-orientation" content="portrait">
@@ -13,7 +13,7 @@
 <script src='../js/zepto.min.js'></script>
 <script src='../js/iscroll.js'></script>
 <script src='../js/common.js'></script>
- <link rel="stylesheet" href="../css/sc-diantai.css">
+<link rel="stylesheet" href="../css/sc-diantai3.css">
 <link rel="stylesheet" href="../css/common.css">
 <script src='../js/zxq-dibu.js'></script>
 <body>
@@ -45,7 +45,7 @@
 	</div>
 	<div id="wrapper">
 		<div id="scroller">
-		    <!--推荐-->
+			<!--推荐-->
 		    <div class="tuijian">
 		        <a href="#">电台个性推荐</a>
 		        <div class="right">
@@ -53,18 +53,54 @@
 		            <em></em>
 		        </div>
 		    </div>
-		    <!--大图-->
-		    <div class="datu">
-		        <div class="tu"></div>
-		    </div>
-		    <!--小图-->
-		    <div class="xiaotu">
-		        <div class="tu"></div>
-		        <div class="tu1"></div>
-		        <div class="tu2"></div>
-		    </div>
-		    <!--推荐二-->
-		    <div class="tuijian">
+		    <!--推荐歌单  -表格-->
+			<ul class="lp-table">
+				<li class="lp-table-li1">
+					<a href='javascript:;' class='lp-table-li1-left'>
+						<div class='left'>
+							<h4>Face score</h4>
+							<h5>颜值党进 &gt;&gt;</h5>
+						</div>
+						<div class='right'>+</div>
+					</a>
+					<a href='javascript:;' class='lp-table-li1-right'>
+						<img src="../img/lp/index-29.png"/>
+					</a>
+				</li>
+				<li class="lp-table-li2">
+					<a href='javascript:;'>
+						<div>
+							<h4>Cantonese</h4>
+							<h5>粤语经典</h5>
+						</div>
+					</a>
+					<a href='javascript:;'>
+						<img src="../img/lp/index-25.png"/>
+					</a>
+					<a href='javascript:;'>
+						<div>
+							<h4>Electric shak</h4>
+							<h5>电音抖腿</h5>
+						</div>
+					</a>
+				</li>
+				<li class="lp-table-li3">
+					<a href='javascript:;'>
+						<img src="../img/lp/index-26.png"/>
+					</a>
+					<a href='javascript:;'>
+						<div>
+							<h4>Flower classic</h4>
+							<h5>花语经典</h5>
+						</div>
+					</a>
+					<a href='javascript:;'>
+						<img src="../img/lp/index-27.png"/>
+					</a>
+				</li>
+			</ul>
+			 <!--推荐二-->
+		    <div class="tuijian tuijian2">
 		        <a href="#">情感调频</a>
 		        <div class="right">
 		            <a href="#">更多</a>
@@ -139,7 +175,7 @@
 			</li>
 		</ul>
 	</div>
-	 <script>
+	<script>
 	    window.onload=function(){
 		    var myScroll = new IScroll('#wrapper', {
 			    mouseWheel: true,

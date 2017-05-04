@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta name="x5-orientation" content="portrait | landscape" />
 	<meta name="screen-orientation" content="portrait">
@@ -13,7 +13,7 @@
 <script src='../js/zepto.min.js'></script>
 <script src='../js/iscroll.js'></script>
 <script src='../js/common.js'></script>
- <link rel="stylesheet" href="../css/sc-diantai.css">
+<link rel="stylesheet" href="../css/sc-diantai2.css">
 <link rel="stylesheet" href="../css/common.css">
 <script src='../js/zxq-dibu.js'></script>
 <body>
@@ -45,7 +45,7 @@
 	</div>
 	<div id="wrapper">
 		<div id="scroller">
-		    <!--推荐-->
+			<!--推荐-->
 		    <div class="tuijian">
 		        <a href="#">电台个性推荐</a>
 		        <div class="right">
@@ -53,17 +53,18 @@
 		            <em></em>
 		        </div>
 		    </div>
-		    <!--大图-->
-		    <div class="datu">
-		        <div class="tu"></div>
-		    </div>
-		    <!--小图-->
-		    <div class="xiaotu">
-		        <div class="tu"></div>
-		        <div class="tu1"></div>
-		        <div class="tu2"></div>
-		    </div>
-		    <!--推荐二-->
+		    <div class='lp-mvall'>
+				<div class='lp-mv'>
+					<img src="../img/lp/index-8.png">
+				</div>
+				<div class='lp-singer1'>I Don＇t Wanna Live Forever(Sam,Kina,Madilyn,KHS...</div>
+				<div class='lp-singer2'>Sam Tsui/Madilyn Bailey/Kur Hugo Schneider</div>
+			</div>
+			<div class='lp-delivery'>
+				<img src="../img/lp/index-7.png" class='lp-delivery-bg'>
+				<img src="../img/lp/index-8.png" class='lp-delivery-sm'>
+			</div>
+			<!--推荐二-->
 		    <div class="tuijian">
 		        <a href="#">情感调频</a>
 		        <div class="right">
@@ -71,43 +72,53 @@
 		            <em></em>
 		        </div>
 		    </div>
-		    <!--调频-->
-		    <div class="FM">
-		    	<a href="javascript:;" class='lp-a'>
-					<img src='../img/sc-img/fm.png'>
-					<div class='lp-listr'>
-						<h4>Please Don't Go</h4>
-						<img src='../img/lp/lp-song-16.png'>
-						<div class='lp-left'>
-							<span>J.Fla-</span>
-							<span>Inspiration</span>
-						</div>
-						<div class='lp-right'>
-							<img src='../img/lp/lp-song-14.png'>
-							<span>点击量</span>
-							<img src='../img/lp/lp-song-15.png'>
-							<span>8269</span>
-						</div>
+		    <div class='lp-delivery-list'>
+				<div class='lp-delivery-a'>
+					<img class='img1' src="../img/lp/index-9.png"/>
+					<h4>ROCKABYE</h4>
+					<img class='img2' src="../img/lp/index-10.png"/>
+					<div class='lp-line1'>
+						<img src="../img/lp/index-11.png"/>
+						<span>2890</span>
+						<img src="../img/lp/index-12.png" />
+						<span>37648</span>
 					</div>
-				</a>
-				<a href="javascript:;" class='lp-a'>
-					<img src='../img/lp/lp-song-4.png'>
-					<div class='lp-listr'>
-						<h4>Please Don't Go</h4>
-						<img src='../img/lp/lp-song-16.png'>
-						<div class='lp-left'>
-							<span>J.Fla-</span>
-							<span>Inspiration</span>
-						</div>
-						<div class='lp-right'>
-							<img src='../img/lp/lp-song-14.png'>
-							<span>点击量</span>
-							<img src='../img/lp/lp-song-15.png'>
-							<span>8269</span>
-						</div>
+					<div class='lp-line2'>
+						<img src="../img/lp/index-13.png">
+						<span>德玛西亚</span>
 					</div>
-				</a>
-		    </div> 
+				</div>
+				<div class='lp-delivery-a'>
+					<img class='img1' src="../img/lp/index-16.png"/>
+					<h4>粤语经典</h4>
+					<img class='img2' src="../img/lp/index-10.png"/>
+					<div class='lp-line1'>
+						<img src="../img/lp/index-11.png"/>
+						<span>3456</span>
+						<img src="../img/lp/index-12.png" />
+						<span>78910</span>
+					</div>
+					<div class='lp-line2'>
+						<img src="../img/lp/index-19.png">
+						<span>美剧学长</span>
+					</div>
+				</div>
+				<div class='lp-delivery-a'>
+					<img class='img1' src="../img/lp/index-17.png"/>
+					<h4><rockabye>X-Martin</rockabye></h4>
+					<img class='img2' src="../img/lp/index-10.png"/>
+					<div class='lp-line1'>
+						<img src="../img/lp/index-11.png"/>
+						<span>2544</span>
+						<img src="../img/lp/index-12.png" />
+						<span>8899</span>
+					</div>
+					<div class='lp-line2'>
+						<img src="../img/lp/index-18.png">
+						<span>盯鞋人</span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="footer">
@@ -139,7 +150,7 @@
 			</li>
 		</ul>
 	</div>
-	 <script>
+	<script>
 	    window.onload=function(){
 		    var myScroll = new IScroll('#wrapper', {
 			    mouseWheel: true,
