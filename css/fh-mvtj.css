@@ -76,6 +76,10 @@ body{
     float:left;
     font-size:0.18rem;
     line-height: 0.7rem;
+    color:#e13838;
+}
+.fh-son h1 a{
+    color:#e13838;
 }
 /*内容部分*/
 .fh-content{
