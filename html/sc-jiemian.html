@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/swiper.min.css">
     <script src="../js/jquery.min.js"></script>
-    <script src="../js/swiper.min.js"></script>
+
 </head>
 <body>
 <div class="pack">
     <div class="pack-1">
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
         <!--top-->
         <div class="top">
             <a href="" class="jian"></a>
@@ -23,18 +21,18 @@
         <!--图-->
         <div class="yi swiper-container">
             <div class="swiper-wrapper">
-                <a href="" class="tu-2 active swiper-slide">
+                <div href="" class="tu1 swiper-slide">
                     <img src="../img/sc-img/da1.png" alt="">
                     <span>静谧蓝  Quiet blue ...</span>
-                </a>
-                <a href="" class="tu-2 swiper-slide">
+                </div>
+                <div href="" class="tu2 swiper-slide">
                     <img src="../img/sc-img/da2.png" alt="">
                     <span>静谧蓝  Quiet blue ...</span>
-                </a>
-                <a href="" class="tu-3 swiper-slide">
+                </div>
+                <div href="" class="tu3 swiper-slide">
                     <img src="../img/sc-img/da3.png" alt="">
                     <span>静谧蓝  Quiet blue ...</span>
-                </a>
+                </div>
             </div>
         </div>
         <!--应用-->
@@ -43,21 +41,18 @@
     </div>
 
 </div>
-</body>
-</html>
+<script src="../js/swiper.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflow: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows : true
-        }
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
     });
 </script>
+
+</body>
+</html>
