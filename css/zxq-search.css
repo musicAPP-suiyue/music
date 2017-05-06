@@ -2,16 +2,29 @@ h1,h2,h3,h4,h5,h6{
     font-weight: normal;
     font-size:0.24rem;
 }
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-ms-touch-action: none;
+}
 img{
     display: block;
 }
 body{
     background:#F1F1F1;
+    overflow: hidden;
 }
 .zxq-topp{
 	width:100%;
 	height:0.88rem;
 	background:#e13838;
+	position: absolute;
+	left:0;
+	top:0;
 }
 .zxq-topp a{
 	display: block;
