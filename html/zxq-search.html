@@ -17,6 +17,37 @@
 		<script src="../js/common.js"></script>
 		<script src="../js/zxq-search.js"></script>
 		<script src='../js/zxq-dibu.js'></script>
+		<script type="text/javascript" src="../js/iscroll.js"></script>
+		<script type="text/javascript">
+	        var myScroll;
+	        function loaded () {
+	            myScroll = new IScroll('#wrapper',{
+	                scrollbars: true,
+	                mouseWheel: true,
+	                interactiveScrollbars: true,
+	                shrinkScrollbars: 'scale',
+	                fadeScrollbars: true,
+	                click:true
+	            });
+	        }
+		</script>
+		<style>
+			#wrapper {
+				position: absolute;
+				z-index: 1;
+				top:0.88rem;
+				bottom: 0px;
+				left: 0;
+				width: 100%;
+				overflow: hidden;
+			}
+			#scroller {
+				position: absolute;
+				z-index: 1;
+				-webkit-tap-highlight-color: rgba(0,0,0,0);
+				width: 100%;
+			}
+		</style>
 	</head>
 	<body> 
 		<div class='zxq-topp'>
@@ -114,56 +145,59 @@
 			    </ul>
 			</div>
 		</div>
-		<div class='zxq-content'>
-			<div class='zxq-first'>
-				<div class='zxq-line1'>
-					<img src="../img/zxq-a3.png" alt="" />
-					<h1>历史搜索</h1>
-					<img src="../img/zxq-a4.png" alt="" class='zxq-ls'/>
-					<h2>查看全部</h2>
+		<div id="wrapper">
+			<div id='scroller'>	
+				<div class='zxq-content'>
+					<div class='zxq-first'>
+						<div class='zxq-line1'>
+							<img src="../img/zxq-a3.png" alt="" />
+							<h1>历史搜索</h1>
+							<img src="../img/zxq-a4.png" alt="" class='zxq-ls'/>
+							<h2>查看全部</h2>
+						</div>
+						<div class='zxq-line2 aa'>
+							<h1>陈奕迅</h1>
+							<h2>刚好遇见你</h2>
+							<h1>张学友</h1>
+							<h1>迪迦</h1>
+						</div>
+						<div class='zxq-line3 aa'>
+							<h1>We Are Strong Pitbull</h1>
+							<h2>告白气球</h2>
+							<h3>童话镇</h3>
+						</div>
+						<div class='zxq-line4' >
+							<h3>清除历史搜索</h3>
+						</div>
+					</div>
+					<div class='zxq-second'>
+						<div class='zxq-line1'>
+							<img src="../img/zxq-a3.png" alt="" />
+							<h1>热门搜索</h1>
+							<img src="../img/zxq-rm.png" alt="" class='zxq-ls'/>
+						</div>
+						<div class='zxq-line2'>
+							<h1>歌手</h1>
+							<h2>高尚 薛之谦</h2>
+							<h3>温柔乡</h3>
+							<h3>实名制</h3>
+						</div>
+						<div class='zxq-line3'>
+							<h1>致姗姗来迟的你</h1>
+							<h2>Heart Of Gold</h2>
+							<h3>Winner</h3>
+						</div>
+						<div class='zxq-line4'>
+							<h1>赵雷</h1>
+							<h1>林俊杰</h1>
+							<h1>张学友</h1>
+							<h1>华晨宇</h1>
+						</div>
+						<div class='zxq-line5'>
+							<h3>查看更多热门</h3>
+						</div>
+					</div>
 				</div>
-				<div class='zxq-line2 aa'>
-					<h1>陈奕迅</h1>
-					<h2>刚好遇见你</h2>
-					<h1>张学友</h1>
-					<h1>迪迦</h1>
-				</div>
-				<div class='zxq-line3 aa'>
-					<h1>We Are Strong Pitbull</h1>
-					<h2>告白气球</h2>
-					<h3>童话镇</h3>
-				</div>
-				<div class='zxq-line4' >
-					<h3>清除历史搜索</h3>
-				</div>
-			</div>
-			<div class='zxq-second'>
-				<div class='zxq-line1'>
-					<img src="../img/zxq-a3.png" alt="" />
-					<h1>热门搜索</h1>
-					<img src="../img/zxq-rm.png" alt="" class='zxq-ls'/>
-				</div>
-				<div class='zxq-line2'>
-					<h1>歌手</h1>
-					<h2>高尚 薛之谦</h2>
-					<h3>温柔乡</h3>
-					<h3>实名制</h3>
-				</div>
-				<div class='zxq-line3'>
-					<h1>致姗姗来迟的你</h1>
-					<h2>Heart Of Gold</h2>
-					<h3>Winner</h3>
-				</div>
-				<div class='zxq-line4'>
-					<h1>赵雷</h1>
-					<h1>林俊杰</h1>
-					<h1>张学友</h1>
-					<h1>华晨宇</h1>
-				</div>
-				<div class='zxq-line5'>
-					<h3>查看更多热门</h3>
-				</div>
-			</div>
 			</div>
 		</div>
 		<audio src='../song/HoaproxNgẫu-Hứng.mp3' id='audio'></audio>

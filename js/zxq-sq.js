@@ -9,7 +9,8 @@ $(document).ready(function(){
 	      }
 	   });
 	}
-	$('.zxq-talk').on('touchstart',function(){
+	$('.zxq-talk')[0].addEventListener('touchstart',function(e){
+		e.preventDefault();
 		rotation2();
 		
 	})
