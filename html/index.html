@@ -9,6 +9,7 @@
 	<meta name="full-screen" content="yes">
 	<meta name="format-detection" content="telephone=no, email=no" />
 	<title>岁乐</title>
+	<link rel="stylesheet" href="../css/index.css">
 </head>
 <script src='../js/zepto.min.js'></script>
 <script src='../js/iscroll.js'></script>
@@ -25,6 +26,10 @@
 		position: relative;
 		height: 100%;
 	}
+	body {
+		margin: 0;
+		padding: 0;
+	}
 	.swiper-container1 {
 		width: 100%;
 		height: 100%;
@@ -34,9 +39,17 @@
 		width: 5.95rem;
 		max-width: 5.95rem;
 	}
-	.content {
+	.content1 {
 		width: 100%;
-	}	
+	}
+	/*.zxq-cd{*/
+		/*position: absolute;*/
+		/*top: 0px;*/
+		/*left:10px;*/
+		/*padding: 15px;*/
+		/*cursor: pointer;*/
+		/*background-color: #2C8DFB;*/
+	/*}*/
 </style>
 <body>
 	<div class="swiper-container swiper-container1">
@@ -46,17 +59,17 @@
 					<!--toubu-->
 					<div class='lp-banner1'>
 						<div class='lp-bline1'>
-							<img class='lp-bianji' src="../img/lp/lp-cehua-2.png" alt="" />	
-							<img class='lp-tou' src="../img/lp/lp-cehua-3.png" alt="" />	
+							<img class='lp-bianji' src="../img/lp/lp-cehua-2.png" alt="" />
+							<img class='lp-tou' src="../img/lp/lp-cehua-3.png" alt="" />
 							<img class='lp-xin' src="../img/lp/lp-cehua-4.png" alt="" />
 						</div>
 						<div class='lp-bline2'>小明同学</div>
 						<div class='lp-bline3'>
-							<img  src="../img/lp/lp-cehua-5.png" alt="" />	
-							<img  src="../img/lp/lp-cehua-5.png" alt="" />	
 							<img  src="../img/lp/lp-cehua-5.png" alt="" />
-							<img  src="../img/lp/lp-cehua-5.png" alt="" />	
-							<img  src="../img/lp/lp-cehua-5.png" alt="" />	
+							<img  src="../img/lp/lp-cehua-5.png" alt="" />
+							<img  src="../img/lp/lp-cehua-5.png" alt="" />
+							<img  src="../img/lp/lp-cehua-5.png" alt="" />
+							<img  src="../img/lp/lp-cehua-5.png" alt="" />
 						</div>
 						<div class='lp-bline4'>
 							<span>关注：</span>
@@ -70,7 +83,7 @@
 					<!--个人信息-->
 					<div class='lp-mess'>
 						<a class='lp-mline1'>
-							<img src="../img/lp/lp-cehua-13.png" alt="" />	
+							<img src="../img/lp/lp-cehua-13.png" alt="" />
 						</a>
 						<a class='lp-mline2'>
 							<img class='lp-img1'src="../img/lp/lp-cehua-6.png" alt="" />
@@ -102,10 +115,10 @@
 							<span>退出/关闭</span>
 						</div>
 					</a>
-				</div>	
+				</div>
 			</div>
-			<div class="swiper-slide content">
-			<!--index-->
+			<div class="swiper-slide content1">
+				<!--<div class="zxq-cd"></div>-->
 				<div id="header">
 					<div class='zxq-top'>
 						<div class='zxq-innertop'>
@@ -127,16 +140,16 @@
 						<div class='lp-banner'>
 							<div class='lp-banner-bk1'></div>
 							<div class='lp-banner-bk'>
-								<div class='swiper-container'>
-								 	<div class="swiper-wrapper">
-								        <img src='../img/lp/index-15.png' class='swiper-slide'>
-								        <img src='../img/lp/index-20.png' class='swiper-slide'>
-								        <img src='../img/lp/index-21.png' class='swiper-slide'>
-								        <img src='../img/lp/index-22.png' class='swiper-slide'>
-								        <img src='../img/lp/index-23.png' class='swiper-slide'>
-							        </div>
-							        <div class='lp-banner-circle swiper-pagination'></div>
-							    </div>
+								<div class='swiper-container swiper-container2'>
+									<div class="swiper-wrapper">
+										<img src='../img/lp/index-15.png' class='swiper-slide'>
+										<img src='../img/lp/index-20.png' class='swiper-slide'>
+										<img src='../img/lp/index-21.png' class='swiper-slide'>
+										<img src='../img/lp/index-22.png' class='swiper-slide'>
+										<img src='../img/lp/index-23.png' class='swiper-slide'>
+									</div>
+									<div class='lp-banner-circle swiper-pagination'></div>
+								</div>
 							</div>
 							<div class='lp-banner-bk2'></div>
 						</div>
@@ -169,7 +182,7 @@
 							</li>
 							<li class='lp-recommend-3'>推荐歌单</li>
 							<li class='lp-recommend-4'>&gt;</li>
-							<li class='lp-recommend-5'>更多</li>	
+							<li class='lp-recommend-5'>更多</li>
 						</ul>
 						<!--推荐歌单  -表格-->
 						<ul class="lp-table">
@@ -225,7 +238,7 @@
 							</li>
 							<li class='lp-recommend-3'>独家放送</li>
 							<li class='lp-recommend-4'>&gt;</li>
-							<li class='lp-recommend-5'>更多</li>	
+							<li class='lp-recommend-5'>更多</li>
 						</ul>
 						<!--独家放送-详情-->
 						<div class='lp-delivery'>
@@ -288,7 +301,7 @@
 							</li>
 							<li class='lp-recommend-3'>推荐MV</li>
 							<li class='lp-recommend-4'>&gt;</li>
-							<li class='lp-recommend-5'>更多</li>	
+							<li class='lp-recommend-5'>更多</li>
 						</ul>
 						<div class='lp-mvall'>
 							<div class='lp-mv'>
@@ -329,21 +342,20 @@
 						</li>
 					</ul>
 				</div>
-
 			</div>
 		</div>
 	</div>
 	<script src='../js/swiper.min.js'></script>
 	<script> 
 		window.onload=function(){
-			var swiper = new Swiper('.swiper-container', {
+			var swiper = new Swiper('.swiper-container2', {
 		        pagination: '.swiper-pagination',
 		        paginationClickable: true
-			});  
+			});
 			var myScroll = new IScroll('#wrapper', {
 			    mouseWheel: true,
 			    scrollbars: true,
-			    click:true    
+			    click:true
 			});
 //			侧滑
 			var toggleMenu = function(){
