@@ -15,143 +15,181 @@
     <script src='../js/zepto.min.js'></script>
     <script src="../js/common.js"></script>
     <script src='../js/zxq-dibu.js'></script>
+    <script src='../js/zxq-ssxq.js'></script>
+    <script type="text/javascript" src="../js/iscroll.js"></script>
+	<script type="text/javascript">
+        var myScroll;
+        function loaded () {
+            myScroll = new IScroll('#wrapper',{
+                scrollbars: true,
+                mouseWheel: true,
+                interactiveScrollbars: true,
+                shrinkScrollbars: 'scale',
+                fadeScrollbars: true,
+                click:true
+            });
+        }
+	</script>
+	<style>
+		#wrapper {
+			position: absolute;
+			z-index: 1;
+			top:0.88rem;
+			bottom: 0.98rem;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#scroller {
+			position: absolute;
+			z-index: 1;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			width: 100%;
+		}
+	</style>
 </head>
-<body>
+<body onload="loaded()">
 <div class='zxq-topp'>
-	<img src="../img/zxq-an1.png" alt="" class="zxq-sc1"/>
+	<a href="zxq-search.html">
+		<img src="../img/zxq-an1.png" alt="" class="zxq-sc1"/>
+	</a>
 	<input type="text" placeholder="刚好遇见你"/>
 	<img src="../img/zxq-sc.png" alt="" class="zxq-sc"/>
 	<img src="../img/zxq-a2.png" alt="" />	
 </div>
 <!--内容-->
-<div class='zxq-content1'>
-	<img src="../img/zxq-tutu.png" alt="" />
-	<div class='zxq-right'>
-		<h1>刚好遇见你</h1>
-		<img src="../img/zxq-tutu2.png" alt="" class='zxq-tutu'/>
-		<div class='zxq-zi'>
-			<h2>李玉刚</h2>
-			<img src="../img/zxq-tutu1.png" alt="" />
-			<h3>点击量</h3>
-			<img src="../img/zxq-tutu4.png" alt="" class='zxq-line'/>
-			<h4>16.3W</h4>
+<div id="wrapper">
+	<div id='scroller'>
+		<div class='zxq-content1'>
+			<img src="../img/zxq-tutu.png" alt="" />
+			<div class='zxq-right'>
+				<h1>刚好遇见你</h1>
+				<img src="../img/zxq-tutu2.png" alt="" class='zxq-tutu'/>
+				<div class='zxq-zi'>
+					<h2>李玉刚</h2>
+					<img src="../img/zxq-tutu1.png" alt="" />
+					<h3>点击量</h3>
+					<img src="../img/zxq-tutu4.png" alt="" class='zxq-line'/>
+					<h4>16.3W</h4>
+				</div>
+				
+			</div>
 		</div>
-		
+		<div class="zxq-content">
+		    <div class="zxq-top">
+		        <h1 class="zxq-di">单曲</h1>
+		        <h1>MV</h1>
+		    </div>
+		    <ul>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>刚好遇见你</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img src="../img/fh-14.png" alt="">
+		            <img class="zxq-last" src="../img/fh-15.png" alt="">
+		            <h2>李玉刚 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>刚好遇见你(Live)</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img src="../img/fh-14.png" alt="">
+		            <img class="zxq-last" src="../img/fh-15.png" alt="">
+		            <h2>李玉刚 · 2017央视元宵晚会</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>新贵妃醉酒</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img src="../img/fh-14.png" alt="">
+		            <img class="zxq-last" src="../img/fh-15.png" alt="">
+		            <h2>李玉刚 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>雨花石</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img src="../img/fh-14.png" alt="">
+		            <img class="zxq-last" src="../img/fh-15.png" alt="">
+		            <h2>李玉刚 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>清明上河图</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img src="../img/fh-14.png" alt="">
+		            <img class="zxq-last" src="../img/fh-15.png" alt="">
+		            <h2>李玉刚 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>逐梦令</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img src="../img/fh-14.png" alt="">
+		            <img class="zxq-last" src="../img/fh-15.png" alt="">
+		            <h2>李玉刚 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>李</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img src="../img/fh-14.png" alt="">
+		            <img class="zxq-last" src="../img/fh-15.png" alt="">
+		            <h2>李玉刚 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>刚好遇见你</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img class="zxq-last" src="../img/fh-14.png" alt="">
+		            <h2>可泽 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>刚好遇见你</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img class="zxq-last" src="../img/fh-14.png" alt="">
+		            <h2>可泽 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>刚好遇见你</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img class="zxq-last" src="../img/fh-14.png" alt="">
+		            <h2>可泽 · 刚好遇见你</h2>
+		        </li>
+		        <li>
+		            <a href="">
+		                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
+		            </a>
+		            <h1>刚好遇见你</h1>
+		            <img src="../img/fh-13.png" alt="">
+		            <img class="zxq-last" src="../img/fh-14.png" alt="">
+		            <h2>可泽 · 刚好遇见你</h2>
+		        </li>
+		    </ul>
+		</div>
 	</div>
-</div>
-<div class="zxq-content">
-    <div class="zxq-top">
-        <h1 class="zxq-di">单曲</h1>
-        <h1>MV</h1>
-    </div>
-    <ul>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>刚好遇见你</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img src="../img/fh-14.png" alt="">
-            <img class="zxq-last" src="../img/fh-15.png" alt="">
-            <h2>李玉刚 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>刚好遇见你(Live)</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img src="../img/fh-14.png" alt="">
-            <img class="zxq-last" src="../img/fh-15.png" alt="">
-            <h2>李玉刚 · 2017央视元宵晚会</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>新贵妃醉酒</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img src="../img/fh-14.png" alt="">
-            <img class="zxq-last" src="../img/fh-15.png" alt="">
-            <h2>李玉刚 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>雨花石</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img src="../img/fh-14.png" alt="">
-            <img class="zxq-last" src="../img/fh-15.png" alt="">
-            <h2>李玉刚 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>清明上河图</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img src="../img/fh-14.png" alt="">
-            <img class="zxq-last" src="../img/fh-15.png" alt="">
-            <h2>李玉刚 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>逐梦令</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img src="../img/fh-14.png" alt="">
-            <img class="zxq-last" src="../img/fh-15.png" alt="">
-            <h2>李玉刚 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>李</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img src="../img/fh-14.png" alt="">
-            <img class="zxq-last" src="../img/fh-15.png" alt="">
-            <h2>李玉刚 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>刚好遇见你</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img class="zxq-last" src="../img/fh-14.png" alt="">
-            <h2>可泽 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>刚好遇见你</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img class="zxq-last" src="../img/fh-14.png" alt="">
-            <h2>可泽 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>刚好遇见你</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img class="zxq-last" src="../img/fh-14.png" alt="">
-            <h2>可泽 · 刚好遇见你</h2>
-        </li>
-        <li>
-            <a href="">
-                <img class="zxq-mai" src="../img/zxq-more.png" alt="">
-            </a>
-            <h1>刚好遇见你</h1>
-            <img src="../img/fh-13.png" alt="">
-            <img class="zxq-last" src="../img/fh-14.png" alt="">
-            <h2>可泽 · 刚好遇见你</h2>
-        </li>
-    </ul>
 </div>
 <audio src='../song/HoaproxNgẫu-Hứng.mp3' id='audio'></audio>
 <ul class="zxq-bottom">

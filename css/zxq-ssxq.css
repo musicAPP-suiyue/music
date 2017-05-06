@@ -13,6 +13,10 @@ body{
 	height:0.88rem;
 	background:#e13838;
 }
+.zxq-topp a{
+	display: block;
+	float: left;
+}
 .zxq-topp input{
 	width:5.49rem;
 	height:0.56rem;
@@ -40,9 +44,7 @@ body{
 	margin-top:0.2rem;
 	float:left;
 }
-.zxq-topp .zxq-sc1{
-	margin-top:0.25rem;
-}
+
 .zxq-topp span{
 	display: inline-block;
 	width:6rem;
@@ -61,6 +63,10 @@ body{
 .zxq-topp img:last-child{
 	margin-right:0.25rem;
 	float:right;
+}
+.zxq-topp a .zxq-sc1{
+	margin-right:0;
+	margin-top:0.25rem;
 }
 /*内容*/
 .zxq-content1{
