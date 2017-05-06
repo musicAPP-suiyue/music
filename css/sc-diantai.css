@@ -42,12 +42,13 @@ body{
 	height:0.88rem;
 	background:#e13838;
 }
-.zxq-top1 img{
+.zxq-top1 a{
 	display: block;
 	width:0.4rem;
 	height:0.4rem;
 	margin-top:0.23rem;
 	float:left;
+    background-size: 100%;
 }
 .zxq-top1 span{
 	display: inline-block;
@@ -60,12 +61,14 @@ body{
 	font-family: '苹方';
 	text-align: center;
 }
-.zxq-top1 img:first-child{
+.zxq-top1 a:first-child{
 	margin-left:0.19rem;
+    background-image: url("../img/zxq-an1.png");
 }
-.zxq-top1 img:last-child{
+.zxq-top1 a:last-child{
 	margin-right:0.25rem;
 	float:right;
+    background-image: url("../img/zxq-an2.png");
 }
 /*电台*/
 .radio{
