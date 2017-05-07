@@ -3,10 +3,10 @@
  */
 $(document).ready(function (){
     $('.login-1').on('touchstart',function () {
-        let name=$('.from-1 > input').val().length;
-        let pass=$('.from-2 > input').val();
-        let passs=$('.from-3 > input').val();
-        let fh=$('.zi-left > input').is(':checked');
+        var name=$('.from-1 > input').val().length;
+        var pass=$('.from-2 > input').val();
+        var passs=$('.from-3 > input').val();
+        var fh=$('.zi-left > input').is(':checked');
         if(name>10){
             if(pass==passs){
                 if(pass.length>5&&pass.length<13){
