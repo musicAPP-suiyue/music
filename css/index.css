@@ -379,6 +379,7 @@ body{
 	color:#333232;
 	float:left;
 	margin-left:0.1rem;
+	margin-top:0.1rem;
 }
 .lp-delivery-list .lp-delivery-a .lp-line1 img:nth-child(1){
 	margin-left:0.17rem;
