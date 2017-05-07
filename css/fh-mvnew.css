@@ -25,7 +25,7 @@ body{
     color:#fff;
     margin-left:2.85rem;
 }
-.fh-header img:nth-child(3){
+.fh-header a:nth-child(3){
     height:0.35rem;
     float:right;
 }

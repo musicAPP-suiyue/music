@@ -89,7 +89,7 @@ body{
 }
 .zxq-top2 ul li span{
     float: left;
-    font-size: 0.26rem;
+    font-size: 0.3rem;
     line-height: 0.49rem;
     color:rgba(255,255,255,0.7);
     margin-left:0.06rem;
@@ -97,10 +97,6 @@ body{
 .active{
     background:#c83030;
     border-radius: 0.3rem;
-}
-.active a span{
-    font-size: 0.3rem!important;
-    color:#fff!important;
 }
 /*以上为头部*/
 /*内容*/
