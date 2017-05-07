@@ -131,6 +131,9 @@ body {
 }
 .return a{
 	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 .continue{
     background: #ff0000;
@@ -138,6 +141,9 @@ body {
 }
 .continue a{
 	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 /*线*/
 .line{

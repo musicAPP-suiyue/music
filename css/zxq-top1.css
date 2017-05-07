@@ -22,8 +22,13 @@ body {
 	height:0.88rem;
 	background:#e13838;
 }
-
-.zxq-top1 img{
+.zxq-top1 a{
+	display: block;
+	width:auto;
+	height: auto;
+	float: left;
+}
+.zxq-top1 a img{
 	display: block;
 	width:0.4rem;
 	height:0.4rem;
@@ -42,10 +47,10 @@ body {
 	font-family: '苹方';
 	text-align: center;
 }
-.zxq-top1 img:first-child{
+.zxq-top1 a:first-child  img{
 	margin-left:0.19rem;
 }
-.zxq-top1 img:last-child{
+.zxq-top1 a:last-child  img{
 	margin-right:0.25rem;
 	float:right;
 }

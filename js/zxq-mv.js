@@ -15,4 +15,7 @@ $(document).ready(function(){
 	$('.zxq-f3 .zxq-line2  .zxq-img').on('touchstart',function(){
 		$(this).css('display','none').siblings().css('display','block');
 	})
+	$('.zxq-head a')[0].addEventListener('touchstart',function(){
+		window.history.back();
+	})
 })

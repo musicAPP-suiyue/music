@@ -20,7 +20,7 @@
 <body>
 	<div id="header">
 		<div class='zxq-top1'>
-			<a href="index.html"></a>
+			<a href="index.html" class='zxq-return'></a>
 			<span>电台</span>
 			<a href="#"></a>
 		</div>
@@ -153,7 +153,7 @@
 					<span>Ngẫu Hứng</span>
 					<span>Hoaprox</span>
 				</div>
-				<canvas id="canvas" width='200px' height='800px'></canvas>
+				<!--<canvas id="canvas" width='200px' height='800px'></canvas>-->
 			</li>
 			<li class='zxq-play'>
 				<div class="zxq-play1 i1">
@@ -170,6 +170,10 @@
 	</div>
 	 <script>
 	    window.onload=function(){
+	    	//	    	返回键
+//			$('.zxq-return')[0].addEventListener('touchstart', function() {
+//				window.history.back();
+//			})
 		    var myScroll = new IScroll('#wrapper', {
 			    mouseWheel: true,
 			    scrollbars: true,
