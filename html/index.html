@@ -355,10 +355,12 @@
 		        paginationClickable: true
 			});
 			var myScroll = new IScroll('#wrapper', {
+				preventDefault:false,
 			    mouseWheel: true,
 			    scrollbars: true,
 			    click:true
 			});
+			document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 //			侧滑
 			var toggleMenu = function(){
 				if (swiper.previousIndex == 0)
