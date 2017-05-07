@@ -59,8 +59,7 @@
 .zxq-top1 a:first-child  img{
     margin-left:0.19rem;
 }
-.zxq-top1 a:last-child  img{
-    margin-right:0.25rem;
+.zxq-top1 a:last-child{
     float:right;
 }
 .zxq-top2{
