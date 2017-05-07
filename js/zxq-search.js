@@ -31,5 +31,8 @@ $(document).ready(function(){
 		$(this).parent().siblings().eq(1).css('opacity','0');
 		$(this).parent().siblings().eq(2).css('opacity','0');
 	})
-	search.focus();
+	
+	$('.zxq-topp a')[0].addEventListener('touchstart',function(){
+		window.history.back();
+	})
 })

@@ -17,8 +17,11 @@ $(document).ready(function(){
 	$('.zxq-talk').on('touchend',function(){
 		setTimeout(function(){
             $(".zxq-z").stopRotate();
-            }, 100);
-       })
+        }, 100);
+  })
+	$('.zxq-topp a')[0].addEventListener('touchstart',function(){
+		window.history.back();
+	})
 	
 
 })
