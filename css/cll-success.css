@@ -129,7 +129,7 @@ body {
     background: #fdc01c;
     left: 1.38rem;
 }
-.return a{
+.return>a{
 	color: #fff;
 	display: block;
 	width: 100%;
@@ -139,7 +139,7 @@ body {
     background: #ff0000;
     right: 1.38rem;
 }
-.continue a{
+.continue>a{
 	color: #fff;
 	display: block;
 	width: 100%;
