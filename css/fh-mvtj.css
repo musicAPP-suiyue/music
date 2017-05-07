@@ -86,7 +86,7 @@ body{
     width:7rem;
     margin:0.25rem auto;
 }
-.fh-content > img{
+.fh-content > a > img{
      height:4.7rem;
      float:left;
  }
