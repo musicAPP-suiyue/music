@@ -11,10 +11,13 @@
     <meta name="format-detection" content="telephone=no, email=no" />
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/cll-home.css">
+    <link rel="stylesheet" href="../css/zxq-bottom.css" />
     <script src="../js/zepto.min.js"></script>
     <script src="../js/iscroll.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/cll-home.js"></script>
+    <script src="../js/zxq-dibu.js"></script>
+    <script src="../js/cll-common.js"></script>
 </head>
 <script>
     function loaded () {
@@ -40,8 +43,10 @@
             </div>
             <!--音乐包-->
             <div>
-                <span class="visible">音乐包</span>
-                <div></div>
+            	<a href="cll-music-pack.html">
+            		<span class="visible">音乐包</span>
+                	<div></div>
+            	</a>
             </div>
         </div>
     </div>
@@ -63,7 +68,9 @@
                         <img src="../img/cll-icon_17.png" alt="" class="picture3">
                         <div class="p">
                             <span>2017-5-28到期</span>
-                            <div>续费</div>
+                            <div>
+                            	<a href="cll-member.html">续费</a>
+                            </div>
                         </div>
                         <div class="cll-bottom">
                             <div>
@@ -134,6 +141,37 @@
             </div>
 
         </div>
+    </div>
+    
+    <!--底部-->
+    <div id="footer">
+    	<audio src='../song/HoaproxNgẫu-Hứng.mp3' id='audio'></audio>
+		<ul class="zxq-bottom">
+			<li class='zxq-tiao'>
+				<div class='zxq-ctiao'>
+					<div class='zxq-yuan'></div>
+				</div>
+			</li>
+			<li class='zxq-icon'></li>
+			<li class='zxq-statues'>
+				<div class='zxq-author'>
+					<span>Ngẫu Hứng</span>
+					<span>Hoaprox</span>
+				</div>
+				<canvas id="canvas" width='200px' height='800px'></canvas>
+			</li>
+			<li class='zxq-play'>
+				<div class="zxq-play1 i1">
+					<img src="../img/zxq-zy.png" alt="" />
+				</div >
+				<div class="zxq-play2 i1">
+					<img src="../img/zxq-bf.png" alt="" />
+				</div>
+				<div class="zxq-play3 i1">
+					<img src="../img/zxq-next.png" alt="" />
+				</div>
+			</li>
+		</ul>
     </div>
 </body>
 </html>

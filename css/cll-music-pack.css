@@ -111,6 +111,11 @@ body {
 .cll-box > div span{
     color: #fff;
 }
+.cll-box > div a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
 .cll-box > div div{
     width: 2.18rem;
     height: 0.04rem;
@@ -236,5 +241,5 @@ body {
 .say p{
 	font-size: 0.2rem;
 	color: #949597;
-	margin-bottom: 0.14rem;
+	margin-bottom: 0.1rem;
 }

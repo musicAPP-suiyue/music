@@ -129,9 +129,15 @@ body {
     background: #fdc01c;
     left: 1.38rem;
 }
+.return a{
+	color: #fff;
+}
 .continue{
     background: #ff0000;
     right: 1.38rem;
+}
+.continue a{
+	color: #fff;
 }
 /*线*/
 .line{

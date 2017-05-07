@@ -189,10 +189,12 @@ body{
 .lp-recommend-5{
 	height:0.45rem;
 	line-height:0.45rem;
-	color:#1b1b1b;
 	font-size:0.26rem;
 	margin-right:0.06rem;
 	float:right;
+}
+.lp-recommend-5 a{
+	color:#1b1b1b;
 }
 .lp-recommend-4{
 	float:right;
