@@ -200,3 +200,97 @@
     font-size: 0.22rem;
     margin-top: 0.3rem;
 }
+.lp-list{
+    width:100%;
+}
+.lp-lall{
+    width:7.04rem;
+    height:1.25rem;
+    margin:0 auto;
+    margin-top:0.2rem;
+    background:#fff;
+    overflow:hidden;
+}
+.lp-a{
+    display:block;
+    height:1.25rem;
+    width:7.04rem;
+    box-sizing:border-box;
+    float:left;
+    transition:all 0.2s linear;
+}
+.lp-a>img{
+    display:block;
+    width:1.75rem;
+    float:left;
+    margin-left:0.02rem;
+}
+.lp-a>.lp-listr{
+    float:left;
+    width:5rem;
+    height:100%;
+    margin-left:0.26rem;
+}
+.lp-a>.lp-listr>h4{
+    font-size:0.23rem;
+    color:#111111;
+    margin-top:0.24rem;
+    margin-left:0.02rem;
+    font-weight:100;
+}
+.lp-a>.lp-listr>img{
+    display:block;
+    height:0.05rem;
+    margin-top:0.12rem;
+}
+.lp-a>.lp-listr>.lp-left{
+    font-size:0.23rem;
+    float:left;
+    margin-top:0.1rem;
+}
+.lp-a>.lp-listr>.lp-left>span:nth-child(1){
+    color:#f62d2d;
+}
+.lp-a>.lp-listr>.lp-left>span:nth-child(2){
+    color:#9e9a9a;
+}
+.lp-a>.lp-listr>.lp-right{
+    float:right;
+    font-size:0.18rem;
+    margin-right:0.4rem;
+    margin-top:0.16rem;
+    color:#aaaaaa;
+}
+.lp-a>.lp-listr>.lp-right>img{
+    height:0.22rem;
+    margin-right:0.04rem;
+}
+.lp-a>.lp-listr>.lp-right>span{
+    margin-right:0.04rem;
+}
+.lp-hua{
+    width:2.46rem;
+    height:1.25rem;
+    float:left;
+    transition:all 0.2s linear;
+}
+.lp-hua>div{
+    height:1.25rem;
+    width:33.33%;
+    float:left;
+}
+.lp-hua>div>img{
+    width:0.48rem;
+    float:left;
+    margin-top:0.38rem;
+    margin-left:0.18rem;
+}
+.lp-hua>.lp-hua1{
+    background:#e13838;
+}
+.lp-hua>.lp-hua2{
+    background:#d53434;
+}
+.lp-hua>.lp-hua3{
+    background:#c83131;
+}

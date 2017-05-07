@@ -179,14 +179,24 @@ body{
     padding-right: 0.24rem;
     padding-left: 0.24rem;
 }
+.lp-list{
+	width:100%;
+}
+.lp-lall{
+	width:7.04rem;
+	height:1.25rem;
+	margin:0 auto;
+	margin-top:0.2rem;
+	background:#fff;
+	overflow:hidden;
+}
 .lp-a{
 	display:block;
 	height:1.25rem;
 	width:7.04rem;
-	background:#fff;
-	margin:0 auto;
-	margin-top:0.2rem;
 	box-sizing:border-box;
+	float:left;
+	transition:all 0.2s linear;
 }
 .lp-a>img{
 	display:block;
@@ -236,6 +246,32 @@ body{
 }
 .lp-a>.lp-listr>.lp-right>span{
 	margin-right:0.04rem;
+}
+.lp-hua{
+	width:2.46rem;
+	height:1.25rem;
+	float:left;
+	transition:all 0.2s linear;
+}
+.lp-hua>div{
+	height:1.25rem;
+	width:33.33%;
+	float:left;
+}
+.lp-hua>div>img{
+	width:0.48rem;
+	float:left;
+	margin-top:0.38rem;
+	margin-left:0.18rem;
+}
+.lp-hua>.lp-hua1{
+	background:#e13838;
+}
+.lp-hua>.lp-hua2{
+	background:#d53434;
+}
+.lp-hua>.lp-hua3{
+	background:#c83131;
 }
 /*dibu*/
 .zxq-bottom{

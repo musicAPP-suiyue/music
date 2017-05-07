@@ -21,7 +21,7 @@
 		<div class='zxq-top1'>
 			<a href="index.html"></a>
 			<span>电台</span>
-			<a href="zxq-search.html"></a>
+			<a href="#"></a>
 		</div>
 		<!--电台-->
 	    <div class="radio">
@@ -89,42 +89,70 @@
 		        </div>
 		    </div>
 		    <!--调频-->
-		    <div class="FM">
-		    	<a href="javascript:;" class='lp-a'>
-					<img src='../img/sc-img/fm.png'>
-					<div class='lp-listr'>
-						<h4>Please Don't Go</h4>
-						<img src='../img/lp/lp-song-16.png'>
-						<div class='lp-left'>
-							<span>J.Fla-</span>
-							<span>Inspiration</span>
-						</div>
-						<div class='lp-right'>
-							<img src='../img/lp/lp-song-14.png'>
-							<span>点击量</span>
-							<img src='../img/lp/lp-song-15.png'>
-							<span>8269</span>
-						</div>
-					</div>
-				</a>
-				<a href="javascript:;" class='lp-a'>
-					<img src='../img/lp/lp-song-4.png'>
-					<div class='lp-listr'>
-						<h4>Please Don't Go</h4>
-						<img src='../img/lp/lp-song-16.png'>
-						<div class='lp-left'>
-							<span>J.Fla-</span>
-							<span>Inspiration</span>
-						</div>
-						<div class='lp-right'>
-							<img src='../img/lp/lp-song-14.png'>
-							<span>点击量</span>
-							<img src='../img/lp/lp-song-15.png'>
-							<span>8269</span>
+			<div class="FM">
+				<div class='lp-list'>
+					<div class='lp-lall'>
+						<a href="javascript:;" class='lp-a'>
+							<img src='../img/sc-img/fm.png'>
+							<div class='lp-listr'>
+								<h4>Please Don't Go</h4>
+								<img src='../img/lp/lp-song-16.png'>
+								<div class='lp-left'>
+									<span>J.Fla-</span>
+									<span>Inspiration</span>
+								</div>
+								<div class='lp-right'>
+									<img src='../img/lp/lp-song-14.png'>
+									<span>点击量</span>
+									<img src='../img/lp/lp-song-15.png'>
+									<span>8269</span>
+								</div>
+							</div>
+						</a>
+						<div class='lp-hua'>
+							<div class='lp-hua1'>
+								<img src='../img/lp/lp-song-17.png'>
+							</div>
+							<div class='lp-hua2'>
+								<img src='../img/lp/lp-song-18.png'>
+							</div>
+							<div class='lp-hua3'>
+								<img src='../img/lp/lp-song-19.png'>
+							</div>
 						</div>
 					</div>
-				</a>
-		    </div> 
+					<div class='lp-lall'>
+						<a href="javascript:;" class='lp-a'>
+							<img src='../img/lp/lp-song-4.png'>
+							<div class='lp-listr'>
+								<h4>Please Don't Go</h4>
+								<img src='../img/lp/lp-song-16.png'>
+								<div class='lp-left'>
+									<span>J.Fla-</span>
+									<span>Inspiration</span>
+								</div>
+								<div class='lp-right'>
+									<img src='../img/lp/lp-song-14.png'>
+									<span>点击量</span>
+									<img src='../img/lp/lp-song-15.png'>
+									<span>8269</span>
+								</div>
+							</div>
+						</a>
+						<div class='lp-hua'>
+							<div class='lp-hua1'>
+								<img src='../img/lp/lp-song-17.png'>
+							</div>
+							<div class='lp-hua2'>
+								<img src='../img/lp/lp-song-18.png'>
+							</div>
+							<div class='lp-hua3'>
+								<img src='../img/lp/lp-song-19.png'>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id="footer">
@@ -169,6 +197,33 @@
 					$(this).children('.active').css('display',"block");
 				})
 			})
+            //			侧滑
+            $(".lp-a").each(function(index,value){
+                value.addEventListener('touchstart', function(e) {
+                    e.preventDefault();
+                    startX = e.changedTouches[0].pageX,
+                        startY = e.changedTouches[0].pageY;
+                    console.log(index)
+                });
+                value.addEventListener("touchmove", function(e) {
+                    e.preventDefault();
+                    moveEndX = e.changedTouches[0].pageX,
+                        moveEndY = e.changedTouches[0].pageY,
+                        X = (moveEndX - startX)/100,
+                        Y = (moveEndY - startY)/100;
+                    var l=parseInt($(".lp-a").eq(index).css('marginLeft'));
+                    if(0>=l>-3){
+                        if(X<-0.4){
+                            $(".lp-a").eq(index).css('marginLeft','-2.46rem');
+                        }
+                    }
+                    if(l<0){
+                        if(X>0.4){
+                            $(".lp-a").eq(index).css('marginLeft','0');
+                        }
+                    }
+                });
+            })
 		}
     </script>
 </body>
