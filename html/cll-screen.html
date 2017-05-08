@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<!--banner-->
-	    <!--<div class="big">-->
+	    <div class="big">
 	        <div class="swiper-container">
 	            <div class="swiper-wrapper">
 	            	<div class="swiper-slide myimg">
@@ -39,13 +39,16 @@
 	            <!-- Add Pagination -->
 	            <div class="swiper-pagination circle"></div>
 	        </div>
-	    <!--</div>-->
+	    </div>
 	</body>
 </html>
 <script>
 	var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
+//      autoplay: 2000,
+//      loop:true,
+//      autoplayDisableOnInteraction: false,
         autoplayStopOnLast: true
     });
 </script>
