@@ -62,7 +62,7 @@
     <div id="scroller">
         <div class="fh-content">
             <ul>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>分开旅行</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -79,7 +79,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>背对背拥抱</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -97,7 +97,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>新贵妃醉酒</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -115,7 +115,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>雨花石</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -133,7 +133,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>清明上河图</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -151,7 +151,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>逐梦令</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -169,7 +169,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>李</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -187,7 +187,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>听一千遍后</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -205,7 +205,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>白色球鞋</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -223,7 +223,7 @@
                     </div>
                 </li>
                 <li class="fh-line"></li>
-                <li>
+                <li class='fh-lie'>
                     <div class="fh-li">
                         <h1>真的很爱你</h1>
                         <img src="../img/fh-13.png" alt="">
@@ -305,7 +305,7 @@
         $(".fh-del").each(function(index,value) {
             value.addEventListener('touchstart', function (e) {
                 e.preventDefault();
-                $('li').eq(index).css('display','none');
+                $('.fh-lie').eq(index).css('display','none');
             });
         })
     }
