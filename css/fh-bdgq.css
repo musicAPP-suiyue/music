@@ -43,14 +43,7 @@ body{
     padding:0.21rem 0.23rem 0 0.23rem;
     box-sizing: border-box;
     overflow:hidden;
-<<<<<<< HEAD
     border-bottom:0.1rem solid #e4e4e4;
-=======
-<<<<<<< HEAD
-=======
-    border-bottom:0.02rem solid #e4e4e4;
->>>>>>> 3976e0efc295420fd8a7a1e59efea9b8d56628a2
->>>>>>> 0b3f502c7f81bb084d39323ebaae32c4486e02c6
 }
 .fh-content ul li h1{
     float:left;
