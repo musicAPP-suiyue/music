@@ -10,7 +10,7 @@ $(document).ready(function () {
         if(name==0||pass==0){
             $('.cuowu-1').css('display','flex');
         }else{
-            location.href='../html/index.html'
+            location.assign('../html/index.html')
         }
     })
 })

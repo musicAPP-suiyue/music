@@ -11,7 +11,7 @@ $(document).ready(function (){
             if(pass==passs){
                 if(pass.length>5&&pass.length<13){
                     if(fh){
-                        location.href='../html/sc-chenggong.html'
+                        location.assign('../html/sc-chenggong.html')
                     }else{
                         $('.cuowu-1 > span').html("请仔细阅读使用协议");
                         $('.cuowu-1').css('display','flex');
