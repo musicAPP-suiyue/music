@@ -14,6 +14,7 @@ body,html{
 	width: 100%;
 }
 .myimg .rect{
+	display: block;
 	width:0.98rem ;
 	height: 0.34rem;
 	background: #dfc346;
@@ -28,16 +29,20 @@ body,html{
 	font-size: 0.24rem;
 }
 .myimg .imme{
+	display: block;
 	width:2.78rem ;
 	height: 0.54rem;
 	background: #fff;
 	border-radius: 0.27rem;
 	position: absolute;
-	bottom:1.06rem;
+	bottom:2rem;
 	left: 50%;
 	margin-left: -1.39rem;
 	color: #a3a1d3;
 	text-align: center;
 	line-height: 0.54rem;
 	font-size: 0.36rem;
+}
+.big .swiper-container .circle{
+	bottom: 0.4rem;
 }
