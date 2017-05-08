@@ -3,12 +3,14 @@
  */
 $(document).ready(function () {
     $('.login').on('touchstart',function () {
-        var name=$('.from-1 > input').val();
-        var pass=$('.from-2 > input').val();
-        if(name=="1078688845"&&pass=="lol7758521"){
-            location.href='../html/index.html'
-        }else{
+        var name=$('.from-1 > input').val().length;
+        var pass=$('.from-2 > input').val().length;
+        // var name=$('.from-1 > input').val();
+        // var pass=$('.from-2 > input').val();
+        if(name==0||pass==0){
             $('.cuowu-1').css('display','flex');
+        }else{
+            location.href='../html/index.html'
         }
     })
 })
