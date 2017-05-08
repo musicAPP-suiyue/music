@@ -37,10 +37,10 @@
             <div class="success">
                 <div class="su">
                     <div class="return">
-                    	<a href="index.html">返回首页</a>
+                    	<a href="#">返回首页</a>
                     </div>
                     <div class="continue">
-                    	<a href="cll-member-click.html">继续开通</a>
+                    	<a href="#">继续开通</a>
                     </div>
                 </div>
             </div>
@@ -85,4 +85,11 @@
     </div>
 </body>
 </html>
-<!--<script></script>-->
+<script>
+	$('.return a').on('touchstart',function(){
+		location.assign('index.html');
+	})
+	$('.continue a').on('touchstart',function(){
+		location.assign('cll-member-click.html');
+	})
+</script>
