@@ -280,7 +280,6 @@
         $(".fh-li").each(function(index,value){
             value.addEventListener('touchstart', function(e) {
                 e.preventDefault();
-                $('.fh-ce').css('display','none').eq(index).css('display','block');
                 startX = e.changedTouches[0].pageX,
                     startY = e.changedTouches[0].pageY;
             });

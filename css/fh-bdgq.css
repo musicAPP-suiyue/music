@@ -90,7 +90,7 @@ body{
     height:100%;
     overflow:hidden;
     transition:all 0.2s linear;
-    display:none;
+    /*display:none;*/
 }
 .fh-content ul li .fh-ce div{
     float:left;
