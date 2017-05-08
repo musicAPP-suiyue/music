@@ -36,7 +36,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>背对背拥抱</h1>
@@ -51,7 +50,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>新贵妃醉酒</h1>
@@ -66,7 +64,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>雨花石</h1>
@@ -81,7 +78,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>清明上河图</h1>
@@ -131,7 +127,6 @@
         $(".fh-li").each(function(index,value){
             value.addEventListener('touchstart', function(e) {
                 e.preventDefault();
-//               $('.fh-ce').css('display','none').eq(index).css('display','block');
                 startX = e.changedTouches[0].pageX,
                     startY = e.changedTouches[0].pageY;
             });
@@ -145,10 +140,12 @@
                 if(0>=l>-3){
                     if(X<-0.4){
                         $(".fh-li").eq(index).css('marginLeft','-1rem');
+                         $(".fh-ce").css('display','none').eq(index).css('display','block');
                     }
                 }
                 if(l<0){
                     if(X>0.4){
+                    	$(".fh-ce").css('display','none');
                         $(".fh-li").eq(index).css('marginLeft','0');
                     }
                 }

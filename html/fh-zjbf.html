@@ -41,7 +41,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>背对背拥抱</h1>
@@ -59,7 +58,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>新贵妃醉酒</h1>
@@ -77,7 +75,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>雨花石</h1>
@@ -95,7 +92,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>清明上河图</h1>
@@ -113,7 +109,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>逐梦令</h1>
@@ -131,7 +126,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>李</h1>
@@ -149,7 +143,6 @@
                 </div>
             </div>
         </li>
-        <li class="fh-line"></li>
         <li class='fh-lie'>
             <div class="fh-li">
                 <h1>听一千遍后</h1>
@@ -215,10 +208,12 @@
                 if(0>=l>-3){
                     if(X<-0.4){
                         $(".fh-li").eq(index).css('marginLeft','-2rem');
+                         $(".fh-ce").css('display','none').eq(index).css('display','block');
                     }
                 }
                 if(l<0){
                     if(X>0.4){
+                    	$(".fh-ce").css('display','none');
                         $(".fh-li").eq(index).css('marginLeft','0');
                     }
                 }
