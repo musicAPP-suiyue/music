@@ -45,7 +45,7 @@ body{
     padding:0.21rem 0 0 0;
     box-sizing: border-box;
     overflow:hidden;
-    border-bottom:0.01rem solid #e4e4e4;
+    border-bottom:0.02rem solid #e4e4e4;
 }
 .fh-content ul li h1{
     float:left;
