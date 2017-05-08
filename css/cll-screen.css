@@ -1,22 +1,17 @@
 body,html{
 	width: 100%;
-	height:100%;
-}
-/*.big{
-	width: 100%;
 	height: 100%;
-}*/
-.swiper-container{
+	overflow: hidden;
+}
+.big{
 	width: 100%;
 	height: 100%;
 }
-
 .myimg{
 	font-size: 0.2rem;
 }
 .myimg img{
 	width: 100%;
-	height: 100%;
 }
 .myimg .rect{
 	display: block;
